@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Poker Menteur</title>
+    <style>
+      /* FORCER LE SCROLL GLOBAL */
+      html, body, #root {
+        height: 100% !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+      }
+      
+      #root {
+        min-height: 100vh !important;
+        display: flex !important;
+        flex-direction: column !important;
+      }
+      
+      div[style*="overflow-y"] {
+        overflow-y: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+      }
+      
+      body {
+        overscroll-behavior-y: auto !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
